@@ -1,0 +1,135 @@
+'PROJECT_ROOT=/home/neuronet_team248/torch-condor-template'
+Running 'run.sh' in conda env nnti
+Thu Jan 23 11:38:55 2025       
++-----------------------------------------------------------------------------------------+
+| NVIDIA-SMI 550.127.08             Driver Version: 550.127.08     CUDA Version: 12.4     |
+|-----------------------------------------+------------------------+----------------------+
+| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |
+|                                         |                        |               MIG M. |
+|=========================================+========================+======================|
+|   0  Tesla P100-PCIE-16GB           Off |   00000000:04:00.0 Off |                    0 |
+| N/A   29C    P0             25W /  250W |       3MiB /  16384MiB |      0%      Default |
+|                                         |                        |                  N/A |
++-----------------------------------------+------------------------+----------------------+
+                                                                                         
++-----------------------------------------------------------------------------------------+
+| Processes:                                                                              |
+|  GPU   GI   CI        PID   Type   Process name                              GPU Memory |
+|        ID   ID                                                               Usage      |
+|=========================================================================================|
+|  No running processes found                                                             |
++-----------------------------------------------------------------------------------------+
+GPU-0833fde1
+neuronet_team248-70866.0-uller.hpc.uni-saarland.de
+/opt/conda/bin/python
+Package                 Version
+----------------------- --------
+asttokens               2.0.5
+astunparse              1.6.3
+attrs                   23.1.0
+backcall                0.2.0
+beautifulsoup4          4.12.2
+boltons                 23.0.0
+brotlipy                0.7.0
+certifi                 2023.5.7
+cffi                    1.15.1
+chardet                 4.0.0
+charset-normalizer      2.0.4
+conda                   23.3.1
+conda-build             3.24.0
+conda-content-trust     0.1.3
+conda-package-handling  2.0.2
+conda_package_streaming 0.7.0
+cryptography            39.0.1
+decorator               5.1.1
+dnspython               2.3.0
+exceptiongroup          1.1.1
+executing               0.8.3
+expecttest              0.1.4
+filelock                3.9.0
+glob2                   0.7
+gmpy2                   2.1.2
+hypothesis              6.75.2
+idna                    3.4
+ipython                 8.12.0
+jedi                    0.18.1
+Jinja2                  3.1.2
+jsonpatch               1.32
+jsonpointer             2.1
+libarchive-c            2.9
+MarkupSafe              2.1.1
+matplotlib-inline       0.1.6
+mkl-fft                 1.3.6
+mkl-random              1.2.2
+mkl-service             2.4.0
+mpmath                  1.3.0
+networkx                3.1
+numpy                   1.24.3
+packaging               23.0
+parso                   0.8.3
+pexpect                 4.8.0
+pickleshare             0.7.5
+Pillow                  9.4.0
+pip                     23.0.1
+pkginfo                 1.9.6
+pluggy                  1.0.0
+prompt-toolkit          3.0.36
+psutil                  5.9.0
+ptyprocess              0.7.0
+pure-eval               0.2.2
+pycosat                 0.6.4
+pycparser               2.21
+Pygments                2.15.1
+pyOpenSSL               23.0.0
+PySocks                 1.7.1
+python-etcd             0.4.5
+pytz                    2022.7
+PyYAML                  6.0
+requests                2.29.0
+ruamel.yaml             0.17.21
+ruamel.yaml.clib        0.2.6
+setuptools              65.6.3
+six                     1.16.0
+sortedcontainers        2.4.0
+soupsieve               2.4
+stack-data              0.2.0
+sympy                   1.12
+tomli                   2.0.1
+toolz                   0.12.0
+torch                   2.0.1
+torchaudio              2.0.2
+torchdata               0.6.1
+torchelastic            0.2.2
+torchtext               0.15.2
+torchvision             0.15.2
+tqdm                    4.65.0
+traitlets               5.7.1
+triton                  2.0.0
+types-dataclasses       0.6.6
+typing_extensions       4.5.0
+urllib3                 1.26.15
+wcwidth                 0.2.5
+wheel                   0.38.4
+zstandard               0.19.0
+Epoch [1/20]: Train Loss: 0.6353, Train Accuracy: 81.35% Test Loss: 0.5549, Test Accuracy: 85.11%
+Epoch [2/20]: Train Loss: 0.1492, Train Accuracy: 95.58% Test Loss: 0.6165, Test Accuracy: 87.07%
+Epoch [3/20]: Train Loss: 0.1058, Train Accuracy: 97.05% Test Loss: 0.3526, Test Accuracy: 91.46%
+Epoch [4/20]: Train Loss: 0.0656, Train Accuracy: 98.18% Test Loss: 0.3944, Test Accuracy: 90.88%
+Epoch [5/20]: Train Loss: 0.0628, Train Accuracy: 98.25% Test Loss: 0.3545, Test Accuracy: 91.04%
+Epoch [6/20]: Train Loss: 0.0508, Train Accuracy: 98.58% Test Loss: 0.3075, Test Accuracy: 93.18%
+Epoch [7/20]: Train Loss: 0.0537, Train Accuracy: 98.59% Test Loss: 0.3230, Test Accuracy: 92.91%
+Epoch [8/20]: Train Loss: 0.0373, Train Accuracy: 99.03% Test Loss: 0.3198, Test Accuracy: 92.64%
+Epoch [9/20]: Train Loss: 0.0455, Train Accuracy: 98.78% Test Loss: 0.4208, Test Accuracy: 91.54%
+Epoch [10/20]: Train Loss: 0.0356, Train Accuracy: 99.11% Test Loss: 0.5042, Test Accuracy: 89.17%
+Epoch [11/20]: Train Loss: 0.0366, Train Accuracy: 98.98% Test Loss: 0.2835, Test Accuracy: 93.34%
+Epoch [12/20]: Train Loss: 0.0292, Train Accuracy: 99.26% Test Loss: 0.3359, Test Accuracy: 91.99%
+Epoch [13/20]: Train Loss: 0.0313, Train Accuracy: 99.22% Test Loss: 0.2692, Test Accuracy: 93.70%
+Epoch [14/20]: Train Loss: 0.0223, Train Accuracy: 99.44% Test Loss: 0.3043, Test Accuracy: 92.86%
+Epoch [15/20]: Train Loss: 0.0231, Train Accuracy: 99.41% Test Loss: 0.3145, Test Accuracy: 93.67%
+Epoch [16/20]: Train Loss: 0.0370, Train Accuracy: 99.10% Test Loss: 0.3552, Test Accuracy: 92.45%
+Epoch [17/20]: Train Loss: 0.0218, Train Accuracy: 99.45% Test Loss: 0.2960, Test Accuracy: 93.27%
+Epoch [18/20]: Train Loss: 0.0258, Train Accuracy: 99.35% Test Loss: 0.3688, Test Accuracy: 92.70%
+Epoch [19/20]: Train Loss: 0.0155, Train Accuracy: 99.53% Test Loss: 0.2911, Test Accuracy: 94.29%
+Epoch [20/20]: Train Loss: 0.0315, Train Accuracy: 99.23% Test Loss: 0.4288, Test Accuracy: 91.42%
+
