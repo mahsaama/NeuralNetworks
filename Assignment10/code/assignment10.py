@@ -1,8 +1,12 @@
 from typing import Optional, Callable
-
 import torch
+import torch.nn as nn
+import torch.optim as optim
 from torchvision.datasets import GTSRB
 from torchvision.transforms import v2
+from torch.utils.data import DataLoader
+from torchvision import models
+
 
 # You may add aditional augmentations, but don't change the output size
 _resize_transform = v2.Compose([
